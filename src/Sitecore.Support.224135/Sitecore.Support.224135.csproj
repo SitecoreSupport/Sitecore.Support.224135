@@ -120,6 +120,9 @@
     <Content Include="Views\Form\EditorTemplates\RecaptchaField.cshtml" />
     <None Include="web.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Reference\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
