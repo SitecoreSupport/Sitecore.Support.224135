@@ -114,15 +114,20 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <Content Include="Reference\Newtonsoft.Json.dll" />
+    <Content Include="Reference\Sitecore.Analytics.dll" />
+    <Content Include="Reference\Sitecore.Forms.Core.dll" />
+    <Content Include="Reference\Sitecore.Forms.Custom.dll" />
+    <Content Include="Reference\Sitecore.Forms.Mvc.dll" />
+    <Content Include="Reference\Sitecore.WFFM.Abstractions.dll" />
+    <Content Include="Reference\Sitecore.WFFM.Actions.dll" />
     <Content Include="Views\Form\EditorTemplates\CheckboxListField.cshtml" />
     <Content Include="Views\Form\EditorTemplates\DatePickerField.cshtml" />
     <Content Include="Views\Form\EditorTemplates\FileUploadField.cshtml" />
     <Content Include="Views\Form\EditorTemplates\RecaptchaField.cshtml" />
     <None Include="web.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Reference\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
